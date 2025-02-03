@@ -105,6 +105,7 @@ header h1 {
     max-width: 300px; /* Limits the maximum width of cards */
     width: 100%;
     margin: 0 auto; /* Ensures the card is centered if fewer items are displayed */
+    height: 420px;
 }
 
 .article-item:hover {
@@ -113,7 +114,7 @@ header h1 {
 
 .article-item img {
     width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 10px;
     margin-bottom: 10px;
 }
