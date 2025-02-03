@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Société Syrine Médicale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Paramedical Store Logo" id="logo">
+        <h1>Société Syrine Médicale</h1>
+    </header>
+    <main>
+    <div class="search-container">
+        <input type="text" id="searchBar" placeholder="Rechercher un article...">
+    </div>
+    
+    <div class="category-bubbles">
+        <div class="category-bubble active" data-category="all">Tous</div>
+        <div class="category-bubble" data-category="seringue">Seringue</div>
+        <div class="category-bubble" data-category="aiguille">Aiguille</div>
+        <div class="category-bubble" data-category="catheter">Catheter</div>
+        <div class="category-bubble" data-category="compresse">Compresse</div>
+        <div class="category-bubble" data-category="perfuseur">Perfuseur</div>
+        <div class="category-bubble" data-category="couche">Couche</div>
+        <div class="category-bubble" data-category="alese">Alèse</div>
+        <div class="category-bubble" data-category="gant">Gant</div>
+        <div class="category-bubble" data-category="coton">Coton</div>
+        <div class="category-bubble" data-category="hypafix">Hypafix</div>
+        <div class="category-bubble" data-category="alcool">Alcool</div>
+        <div class="category-bubble" data-category="conteneur">Conteneur</div>
+        <div class="category-bubble" data-category="autre">Autre</div>
+        
+    </div>
+    
+    <div id="articlesGrid" class="articles-grid"></div>
+    </main>
+
+    <footer>
+        <p>Pour passer une commande ou plus d'informations, veuillez contacter : <a href="tel:+21629348710">+216 29 348 710</a></p>
+      </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
